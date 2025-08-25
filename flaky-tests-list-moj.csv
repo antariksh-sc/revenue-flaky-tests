@@ -1,0 +1,164 @@
+Date,Branch-name,Test Case Name,Failure Reason,Flaky/ Issue
+June 19,play-release-2025.11,appopen_Restricted.yaml,Assertion is false: id: in.mohalla.video:id/iv_profile_pic is visible,Flaky
+June 19,play-release-2025.11,flow_all_type_ads_in_mediation.yaml,"Assertion is false: ""Mediation Result: Participants: Non-CPCV: 14.0, CPCV: 12.0, Alt-CPCV: 0.0, IMA: 14.0, SAN: 15.0, Cached SAN: 0.0, .*Ad: ShowBackendAd, ViewHolder: Video Ad.*"" is visible",Flaky
+June 19,play-release-2025.11,flow_cpcv_banner_ad.yaml,Element not found: Id matching regex: in.mohalla.video:id/skip_ad_view,Flaky
+June 19,play-release-2025.11,flow_cpcv_click_actions_for_you.yaml,Element not found: Id matching regex: in.mohalla.video:id/ad_cta,Flaky
+June 19,play-release-2025.11,flow_cpcv_multiple_slots_view_assertions_for_you_auto_skip_true.yaml,"Assertion is false: ""@thesumankashyap"" is visible",Flaky
+June 19,play-release-2025.11,flow_disable_back_button_cpcv.yaml,Assertion is false: id: in.mohalla.video:id/recyclerView is visible,Flaky
+June 19,play-release-2025.11,flow_gam_banner_ad_tag_feed.yaml,"Assertion is false: ""Create Post"" is visible",Flaky
+June 19,play-release-2025.11,flow_gam_banner_swipe_right_to_left.yaml,"Assertion is false: ""Continue to app"" is visible",Flaky
+June 19,play-release-2025.11,flow_gam_native_ad_tag_feed.yaml,"Assertion is false: ""Create Post"" is visible",Flaky
+June 19,play-release-2025.11,flow_gam_roadblock_restricted.yaml,Assertion is false: id: in.mohalla.video:id/ad_cta is visible,Flaky
+June 19,play-release-2025.11,flow_ima_ad_same_penalty_multiplier_diff_floor.yaml,"Assertion is false: ""Mediation Result: Participants: Non-CPCV: 0.0, CPCV: 0.0, Alt-CPCV: 0.0, IMA: 15.0, SAN: 10.0, Cached SAN: 0.0, .*Ad: ShowPreRollAd, ViewHolder: Video Ad.*"" is visible",Flaky
+June 19,play-release-2025.11,flow_inAppBrowser_SAN_ads.yaml,"Assertion is false: ""https://solutiononline.shop"" is visible",Flaky
+June 19,play-release-2025.11,flow_inmobi_banner_interstitial.yaml,"Assertion is false: ""InMobi Logo"" is visible",Flaky
+June 19,play-release-2025.11,flow_instream_interaction.yaml,"Assertion is false: "".*Ad: ShowPreRollAd, ViewHolder: Video Ad.*"" is visible",Flaky
+June 19,play-release-2025.11,flow_interstitial_download_othersprofile.yaml,"Assertion is false: ""You're displaying a test interstitial from "" is visible",Flaky
+June 19,play-release-2025.11,flow_medV3_Instream_allslots.yaml,"Assertion is false: ""Learn More"" is visible",Flaky
+June 19,play-release-2025.11,flow_medV3_cpcv_high_floor_in_cache_next_slot_not_having_cpcv_config.yaml,"Assertion is false: ""Cpcv Ads: .2016.0415., CacheSize=10.*"" is visible",Flaky
+June 19,play-release-2025.11,flow_medV3_k_1_requests.yaml,"Assertion is false: ""Cpcv Ads: .14.0., CacheSize=10.*"" is visible",Flaky
+June 19,play-release-2025.11,flow_medV3_k_2_requests.yaml,"Assertion is false: ""Cpcv Ads: .15.0., Cache.*"" is visible",Flaky
+June 19,play-release-2025.11,flow_medV3_k_default_requests.yaml,"Assertion is false: ""Cpcv Ads: .15.0, 14.0, 10.0., Cache.*"" is visible",Flaky
+June 19,play-release-2025.11,flow_med_v3_default_values_0_1_for_penalty_multiplier_when_missing.yaml,"Assertion is false: ""Cpcv Ads: .17.0., CacheSize=10.*"" is visible",Flaky
+June 19,play-release-2025.11,flow_mediation_v3_tie_breaker_highest_floor.yaml,Assertion is false: id: com.android.chrome:id/url_bar is visible,Flaky
+June 19,play-release-2025.11,flow_mediation_v3_tie_breaker_lowest_penalty.yaml,"Assertion is false: ""Cpcv Ads: .16.0, 10.0., CacheSize=10.*"" is visible",Flaky
+June 19,play-release-2025.11,flow_new_req_to_be_fired_when_cache_full_new_request_having_high_floor_value_than_cache.yaml,"Assertion is false: "".*Non-Cpcv Ads: .488.96118, 466.74957., CacheSize=2.*"" is visible",Flaky
+June 19,play-release-2025.11,flow_no_new_req_to_be_fired_when_cache_full_new_request_having_low_floor_values.yaml,"Assertion is false: ""Cpcv Ads: .488.96118, 466.74957., CacheSize=2.*"" is visible",Flaky
+June 19,play-release-2025.11,flow_others_profile_back_press_exit.yaml,Assertion is false: id: in.mohalla.video:id/exo_content_frame is visible,Flaky
+June 19,play-release-2025.11,flow_others_profile_back_press_no_ads.yaml,Assertion is false: id: in.mohalla.video:id/exo_content_frame is visible,Flaky
+June 19,play-release-2025.11,flow_san_image_ad_tag_feed.yaml,Assertion is false: id: in.mohalla.video:id/iv_media_preview is visible,Flaky
+June 19,play-release-2025.11,flow_score_calculation_floor_multiplier_in_decimal_values.yaml,"Assertion is false: "".*Cpcv Ads: .14.75., CacheSize=10.*"" is visible",Flaky
+June 19,play-release-2025.11,flow_share_interstitial_block_on_whatsApp.yaml,"Assertion is false: ""Whatsapp Chat"" is visible",Flaky
+June 19,play-release-2025.11,flow_slot1_high_fXm_wins_in_slot2_with_1Ad_Cached.yaml,"Assertion is false: ""Cpcv Ads: .19.5., CacheSize=10.*"" is visible",Flaky
+June 19,play-release-2025.11,flow_tag_feed_back_press_exit.yaml,"Assertion is false: id: in.mohalla.video:id/iv_media_preview, Index: 1 is visible",Flaky
+June 19,play-release-2025.11,flow_tag_feed_back_press_no_ads.yaml,"Assertion is false: id: in.mohalla.video:id/iv_media_preview, Index: 1 is visible",Flaky
+June 19,play-release-2025.11,flow_validate_original_ad_units_tag_feed.yaml,Assertion is false: id: in.mohalla.video:id/cl_tag_header is visible,Flaky
+June 23,release-2025.12,adMobAppReopenAd.yaml,"Assertion is false: ""Continue to app"" is visible",Flaky
+June 23,release-2025.12,adMobInterstitialAd.yaml,"Assertion is false: ""Test Ad"" is visible",Flaky
+June 23,release-2025.12,flow_all_type_ads_in_mediation.yaml,"Assertion is false: ""Cpcv Ads: .12.0, 9.0, 5.0., CacheSize=10.*"" is visible",Flaky
+June 23,release-2025.12,flow_cpcv_adDown.yaml,"Assertion is false: ""Skip Ad"" is visible",Flaky
+June 23,release-2025.12,flow_cpcv_multiple_slots_view_assertions_for_you_auto_skip_true.yaml,"Assertion is false: ""@thesumankashyap"" is visible",Flaky
+June 23,release-2025.12,flow_disable_back_and_swipe_actions.yaml,Element not found: Id matching regex: in.mohalla.video:id/skip_ad_view,Flaky
+June 23,release-2025.12,flow_disable_back_button_cpcv.yaml,Assertion is false: id: in.mohalla.video:id/recyclerView is visible,Flaky
+June 23,release-2025.12,flow_gam_banner_ad_tag_feed.yaml,"Assertion is false: ""Create Post"" is visible",Flaky
+June 23,release-2025.12,flow_gam_banner_swipe_right_to_left.yaml,"Assertion is false: ""Continue to app"" is visible",Flaky
+June 23,release-2025.12,flow_gam_native_ad_other_profile_feed.yaml,Assertion is false: id: in.mohalla.video:id/native_ad_view is visible,Flaky
+June 23,release-2025.12,flow_gam_native_ad_tag_feed.yaml,"Assertion is false: ""Create Post"" is visible",Flaky
+June 23,release-2025.12,flow_gam_roadblock_control_native.yaml,Assertion is false: id: in.mohalla.video:id/ad_cta is visible,Flaky
+June 23,release-2025.12,flow_gam_roadblock_restricted.yaml,Assertion is false: id: in.mohalla.video:id/ad_cta is visible,Flaky
+June 23,release-2025.12,flow_highest_FxM_cached_overall_feed_wins.yaml,"Assertion is false: ""Mediation Result: Participants: Non-CPCV: 21.0, CPCV: 15.0, Alt-CPCV: 0.0, .*, SAN: 18.0, Cached SAN: 12.0, .*Ad: ShowBackendAd, ViewHolder: Video Ad.*"" is visible",Flaky
+June 23,release-2025.12,flow_ima_ad_same_penalty_multiplier_diff_floor.yaml,"Assertion is false: ""Mediation Result: Participants: Non-CPCV: 0.0, CPCV: 0.0, Alt-CPCV: 0.0, IMA: 15.0, SAN: 10.0, Cached SAN: 0.0, .*Ad: ShowPreRollAd, ViewHolder: Video Ad.*"" is visible",Flaky
+June 23,release-2025.12,flow_inAppBrowser_SAN_ads.yaml,"Assertion is false: ""https://solutiononline.shop"" is visible",Flaky
+June 23,release-2025.12,flow_inmobi_banner_interstitial.yaml,"Assertion is false: ""InMobi Logo"" is visible",Flaky
+June 23,release-2025.12,flow_instream_completeAdView_Skippable.yaml,"Assertion is false: "".*Ad: ShowPreRollAd, ViewHolder: Video Ad.*"" is visible",Flaky
+June 23,release-2025.12,flow_instream_completeAdView_nonSkippable.yaml,"Assertion is false: "".*Ad: ShowPreRollAd, ViewHolder: Video Ad.*"" is visible",Flaky
+June 23,release-2025.12,flow_instream_interaction.yaml,"Assertion is false: "".*Ad: ShowPreRollAd, ViewHolder: Video Ad.*"" is visible",Flaky
+June 23,release-2025.12,flow_instream_skipAd.yaml,"Assertion is false: "".*Ad: ShowPreRollAd, ViewHolder: Video Ad.*"" is visible",Flaky
+June 23,release-2025.12,flow_interstitial_download_othersprofile.yaml,"Assertion is false: ""You're displaying a test interstitial from "" is visible",Flaky
+June 23,release-2025.12,flow_interstitial_download_videofeed.yaml,"Assertion is false: ""Interstitial close button"" is visible",Flaky
+June 23,release-2025.12,flow_medV3_Instream_allslots.yaml,"Assertion is false: ""Learn More"" is visible",Flaky
+June 23,release-2025.12,flow_medV3_Non_cpcv_allslots.yaml,"Assertion is false: ""Mediation Result:.*Participants.*Non-CPCV: 13.0, CPCV: 11.0, Alt-CPCV: 0.0, IMA: .*, SAN: 5.0, Cached SAN: 10.0.*"" is visible",Flaky
+June 23,release-2025.12,flow_medV3_SAN_allslots.yaml,"Assertion is false: ""Mediation Result:.*Participants.*Non-CPCV: 26.0, CPCV: 25.0, Alt-CPCV: 0.0, IMA: .*, SAN: 21.0, Cached SAN: 0.0.*"" is visible",Flaky
+June 23,release-2025.12,flow_medV3_cpcv_allslots.yaml,"Assertion is false: ""Mediation Result:.*Participants.*Non-CPCV: 13.0, CPCV: 15.0, Alt-CPCV: 0.0, IMA: .*, SAN: 10.0, Cached SAN: 10.0.*"" is visible",Flaky
+June 23,release-2025.12,flow_medV3_cpcv_high_floor_in_cache_next_slot_not_having_cpcv_config.yaml,"Assertion is false: ""Cpcv Ads: .2016.0415., CacheSize=10.*"" is visible",Flaky
+June 23,release-2025.12,flow_medV3_k_2_requests.yaml,"Assertion is false: ""Cpcv Ads: .15.0., Cache.*"" is visible",Flaky
+June 23,release-2025.12,flow_med_v3_default_values_0_1_for_penalty_multiplier_when_missing.yaml,"Assertion is false: ""Cpcv Ads: .17.0., CacheSize=10.*"" is visible",Flaky
+June 23,release-2025.12,flow_mediation_v3_tie_breaker_0_random_ad_wins.yaml,"Assertion is false: ""Mediation Result: Participants: Non-CPCV: 486.96118, CPCV: 486.96118, Alt-CPCV: 0.0, IMA: .*, SAN: 486.96118, Cached SAN: 0.0, Ad: .*"" is visible",Flaky
+June 23,release-2025.12,flow_mediation_v3_tie_breaker_1_non_cpcv_ad_win_when_scores_same.yaml,"Assertion is false: ""Mediation Result: Participants: Non-CPCV: 2016.0415, CPCV: 2016.0415, Alt-CPCV: 0.0, IMA:.*, SAN: 2016.0415, Cached SAN: 0.0, Ad: ShowNonCpcvGamAd, ViewHolder: Non-CPCV Ad"" is visible",Flaky
+June 23,release-2025.12,flow_mediation_v3_tie_breaker_2_non_cpcv_ad_win_when_scores_same.yaml,Assertion is false: id: in.mohalla.video:id/tv_sponsor_label is visible,Flaky
+June 23,release-2025.12,flow_mediation_v3_tie_breaker_highest_floor.yaml,"Assertion is false: ""Mediation Result: Participants: Non-CPCV: 22.0, CPCV: 0.0, Alt-CPCV: 0.0, IMA: .*, SAN: 25.0, Cached SAN: 0.0, .*Ad: ShowBackendAd, ViewHolder: Video Ad.*"" is visible",Flaky
+June 23,release-2025.12,flow_mediation_v3_tie_breaker_lowest_penalty.yaml,"Assertion is false: ""Cpcv Ads: .16.0, 10.0., CacheSize=10.*"" is visible",Flaky
+June 23,release-2025.12,flow_new_req_to_be_fired_when_cache_full_new_request_having_high_floor_value_than_cache.yaml,"Assertion is false: ""Mediation Result: Participants: Non-CPCV: 488.96118, CPCV: 488.96118, Alt-CPCV: 0.0, IMA:.*, SAN: 486.96118, Cached SAN: 0.0, Ad: ShowBackendAd, ViewHolder: Video Ad"" is visible",Flaky
+June 23,release-2025.12,flow_no_new_req_to_be_fired_when_cache_full_new_request_having_low_floor_values.yaml,"Assertion is false: ""Mediation Result: Participants: Non-CPCV: 488.96118, CPCV: 488.96118, Alt-CPCV: 0.0, IMA:.*, SAN: 486.96118, Cached SAN: 0.0, Ad: ShowBackendAd, ViewHolder: Video Ad"" is visible",Flaky
+June 23,release-2025.12,flow_others_profile_back_press_exit.yaml,Assertion is false: id: in.mohalla.video:id/exo_content_frame is visible,Flaky
+June 23,release-2025.12,flow_others_profile_back_press_no_ads.yaml,Assertion is false: id: in.mohalla.video:id/exo_content_frame is visible,Flaky
+June 23,release-2025.12,flow_san_ad_same_penalty_multiplier_diff_floor.yaml,Assertion is false: id: com.android.chrome:id/url_bar is visible,Flaky
+June 23,release-2025.12,flow_san_forced_delivery_and_no_ad_requests_to_be_fired.yaml,"Assertion is false: ""Mediation Result: Participants: Non-CPCV: 69.70691, CPCV: 0.0, Alt-CPCV: 0.0, IMA: .*, SAN: 69.70691, Cached SAN: 0.0, Ad: ShowNonCpcvGamAd, ViewHolder: Non-CPCV Ad"" is visible",Flaky
+June 23,release-2025.12,flow_san_image_ad_tag_feed.yaml,Assertion is false: id: in.mohalla.video:id/iv_media_preview is visible,Flaky
+June 23,release-2025.12,flow_score_calculation_floor_multiplier_in_decimal_values.yaml,"Assertion is false: "".*Cpcv Ads: .14.75., CacheSize=10.*"" is visible",Flaky
+June 23,release-2025.12,flow_share_interstitial_block_on_whatsApp.yaml,"Assertion is false: ""Whatsapp Chat"" is visible",Flaky
+June 23,release-2025.12,flow_superlike_foryou.yaml,Assertion is false: id: in.mohalla.video:id/cl_lang_bottom_sheet is visible,Flaky
+June 23,release-2025.12,flow_tag_feed_back_press_exit.yaml,"Assertion is false: id: in.mohalla.video:id/iv_media_preview, Index: 1 is visible",Flaky
+June 23,release-2025.12,flow_tag_feed_back_press_no_ads.yaml,"Assertion is false: id: in.mohalla.video:id/iv_media_preview, Index: 1 is visible",Flaky
+June 23,release-2025.12,flow_validate_original_ad_units_tag_feed.yaml,Assertion is false: id: in.mohalla.video:id/cl_tag_header is visible,Flaky
+June 23,release-2025.12,sdk_initializations_all.yaml,"Assertion is false: ""Meta Audience Network"", Index: 0 is visible",Flaky
+June 23,release-2025.13,adMobAppReopenAd.yaml,Unknown error,Flaky
+June 23,release-2025.13,flow_adMob_appOpen_click_actions.yaml,"Assertion is false: ""For You"" is visible",Flaky
+June 23,release-2025.13,flow_all_type_ads_in_mediation.yaml,"Assertion is false: ""Mediation Result: Participants: Non-CPCV: 14.0, CPCV: 12.0, Alt-CPCV: 0.0, IMA: 14.0, SAN: 15.0, Cached SAN: 0.0, .*Ad: ShowBackendAd, ViewHolder: Video Ad.*"" is visible",Flaky
+June 23,release-2025.13,flow_cpcv_click_actions_other_profile.yaml,Assertion is false: id: in.mohalla.video:id/vsSelfProfileViewPager is visible,Flaky
+June 23,release-2025.13,flow_cpcv_click_actions_other_profile_auto_skip_true.yaml,Assertion is false: id: in.mohalla.video:id/vsSelfProfileViewPager is visible,Flaky
+June 23,release-2025.13,flow_cpcv_multiple_ad_slots_auto_skip_false_other_profile.yaml,Assertion is false: id: in.mohalla.video:id/vsSelfProfileViewPager is visible,Flaky
+June 23,release-2025.13,flow_cpcv_multiple_slots_view_assertions_for_you_auto_skip_true.yaml,"Assertion is false: ""@thesumankashyap"" is visible",Flaky
+June 23,release-2025.13,flow_cpcv_multiple_slots_view_assertions_other_profile_auto_skip_true.yaml,Assertion is false: id: in.mohalla.video:id/vsSelfProfileViewPager is visible,Flaky
+June 23,release-2025.13,flow_cpcv_view_assertions_other_profile.yaml,Assertion is false: id: in.mohalla.video:id/vsSelfProfileViewPager is visible,Flaky
+June 23,release-2025.13,flow_gam_banner_ad_other_profile_feed.yaml,"Assertion is false: ""Google Ad Manager"" is visible",Flaky
+June 23,release-2025.13,flow_gam_native_ad_other_profile_feed.yaml,Assertion is false: id: in.mohalla.video:id/native_ad_view is visible,Flaky
+June 23,release-2025.13,flow_gam_roadblock_restricted.yaml,Assertion is false: id: in.mohalla.video:id/ad_cta is visible,Flaky
+June 23,release-2025.13,flow_ima_ad_same_penalty_multiplier_diff_floor.yaml,"Assertion is false: ""Mediation Result: Participants: Non-CPCV: 0.0, CPCV: 0.0, Alt-CPCV: 0.0, IMA: 15.0, SAN: 10.0, Cached SAN: 0.0, .*Ad: ShowPreRollAd, ViewHolder: Video Ad.*"" is visible",Flaky
+June 23,release-2025.13,flow_inAppBrowser_SAN_ads.yaml,"Assertion is false: ""https://solutiononline.shop"" is visible",Flaky
+June 23,release-2025.13,flow_inmobi_banner_interstitial.yaml,"Assertion is false: ""InMobi Logo"" is visible",Flaky
+June 23,release-2025.13,flow_interstitial_download_othersprofile.yaml,"Assertion is false: ""You're displaying a test interstitial from "" is visible",Flaky
+June 23,release-2025.13,flow_medV3_Instream_allslots.yaml,"Assertion is false: ""Learn More"" is visible",Flaky
+June 23,release-2025.13,flow_medV3_Non_cpcv_allslots.yaml,"Assertion is false: ""Mediation Result:.*Participants.*Non-CPCV: 13.0, CPCV: 11.0, Alt-CPCV: 0.0, IMA: .*, SAN: 5.0, Cached SAN: 10.0.*"" is visible",Flaky
+June 23,release-2025.13,flow_medV3_SAN_allslots.yaml,"Assertion is false: ""Mediation Result:.*Participants.*Non-CPCV: 26.0, CPCV: 25.0, Alt-CPCV: 0.0, IMA: .*, SAN: 21.0, Cached SAN: 0.0.*"" is visible",Flaky
+June 23,release-2025.13,flow_medV3_cpcv_allslots.yaml,Assertion is false: id: SKIP_AD_TEXT is visible,Flaky
+June 23,release-2025.13,flow_medV3_cpcv_high_floor_in_cache_next_slot_not_having_cpcv_config.yaml,"Assertion is false: ""Cpcv Ads: .2016.0415., CacheSize=10.*"" is visible",Flaky
+June 23,release-2025.13,flow_med_v3_default_values_0_1_for_penalty_multiplier_when_missing.yaml,"Assertion is false: ""Cpcv Ads: .17.0., CacheSize=10.*"" is visible",Flaky
+June 23,release-2025.13,flow_mediation_v3_tie_breaker_0_random_ad_wins.yaml,"Assertion is false: ""Mediation Result: Participants: Non-CPCV: 486.96118, CPCV: 486.96118, Alt-CPCV: 0.0, IMA: .*, SAN: 486.96118, Cached SAN: 0.0, Ad: .*"" is visible",Flaky
+June 23,release-2025.13,flow_mediation_v3_tie_breaker_1_non_cpcv_ad_win_when_scores_same.yaml,"Assertion is false: ""Mediation Result: Participants: Non-CPCV: 2016.0415, CPCV: 2016.0415, Alt-CPCV: 0.0, IMA:.*, SAN: 2016.0415, Cached SAN: 0.0, Ad: ShowNonCpcvGamAd, ViewHolder: Non-CPCV Ad"" is visible",Flaky
+June 23,release-2025.13,flow_mediation_v3_tie_breaker_2_non_cpcv_ad_win_when_scores_same.yaml,"Assertion is false: ""Mediation Result: Participants: Non-CPCV: 2016.0415, CPCV: 2016.0415, Alt-CPCV: 0.0, IMA:.*, SAN: 2016.0415, Cached SAN: 0.0, Ad: ShowNonCpcvGamAd, ViewHolder: Non-CPCV Ad"" is visible",Flaky
+June 23,release-2025.13,flow_mediation_v3_tie_breaker_highest_floor.yaml,"Assertion is false: ""Mediation Result: Participants: Non-CPCV: 22.0, CPCV: 0.0, Alt-CPCV: 0.0, IMA: .*, SAN: 25.0, Cached SAN: 0.0, .*Ad: ShowBackendAd, ViewHolder: Video Ad.*"" is visible",Flaky
+June 23,release-2025.13,flow_mediation_v3_tie_breaker_lowest_penalty.yaml,"Assertion is false: ""Mediation Result: Participants: Non-CPCV: 18.0, CPCV: 16.0, Alt-CPCV: 0.0, IMA: 15.0, SAN: 10.0, Cached SAN: 0.0, .*Ad: ShowPreRollAd, ViewHolder: Video Ad.*"" is visible",Flaky
+June 23,release-2025.13,flow_new_req_to_be_fired_when_cache_full_new_request_having_high_floor_value_than_cache.yaml,"Assertion is false: ""Mediation Result: Participants: Non-CPCV: 488.96118, CPCV: 488.96118, Alt-CPCV: 0.0, IMA:.*, SAN: 486.96118, Cached SAN: 0.0, Ad: ShowBackendAd, ViewHolder: Video Ad"" is visible",Flaky
+June 23,release-2025.13,flow_no_new_req_to_be_fired_when_cache_full_new_request_having_low_floor_values.yaml,"Assertion is false: ""Mediation Result: Participants: Non-CPCV: 488.96118, CPCV: 488.96118, Alt-CPCV: 0.0, IMA:.*, SAN: 486.96118, Cached SAN: 0.0, Ad: ShowBackendAd, ViewHolder: Video Ad"" is visible",Flaky
+June 23,release-2025.13,flow_others_profile_back_press_exit.yaml,Assertion is false: id: in.mohalla.video:id/exo_content_frame is visible,Flaky
+June 23,release-2025.13,flow_others_profile_back_press_no_ads.yaml,Assertion is false: id: in.mohalla.video:id/exo_content_frame is visible,Flaky
+June 23,release-2025.13,flow_san_ad_cta_redirection_download_pop_up.yaml,Assertion is false: id: com.android.chrome:id/positive_button is visible,Flaky
+June 23,release-2025.13,flow_san_forced_delivery_and_no_ad_requests_to_be_fired.yaml,"Assertion is false: ""Mediation Result: Participants: Non-CPCV: 69.70691, CPCV: 0.0, Alt-CPCV: 0.0, IMA: .*, SAN: 69.70691, Cached SAN: 0.0, Ad: ShowNonCpcvGamAd, ViewHolder: Non-CPCV Ad"" is visible",Flaky
+June 23,release-2025.13,flow_score_calculation_floor_multiplier_in_decimal_values.yaml,"Assertion is false: ""Mediation Result: Participants: Non-CPCV: 27.43, CPCV: 26.520002, Alt-CPCV: 0.0, IMA: .*, SAN: 15.0, Cached SAN: 0.0, .*Ad: ShowCpCvGamAd, ViewHolder: CPCV Ad.*"" is visible",Flaky
+June 23,release-2025.13,flow_superlike_foryou.yaml,Assertion is false: id: in.mohalla.video:id/cl_lang_bottom_sheet is visible,Flaky
+June 23,release-2025.13,flow_ugc_replay_plate_for_you_feed_native.yaml,Assertion is false: id: in.mohalla.video:id/media_view is not visible,Flaky
+June 23,release-2025.13,sdk_initializations_all.yaml,Unknown error,Flaky
+June 24,release-2025.12,adMobInterstitialAd.yaml,Unknown error,Flaky
+June 24,release-2025.12,flow_adMob_appOpen_click_actions.yaml,Assertion is false: id: in.mohalla.video:id/iv_media_preview is visible,Flaky
+June 24,release-2025.12,flow_adMob_appOpen_restricted_case.yaml,Assertion is false: id: in.mohalla.video:id/livestream_compose_bg is visible,Flaky
+June 24,release-2025.12,flow_all_type_ads_in_mediation.yaml,"Assertion is false: ""Mediation Result: Participants: Non-CPCV: 14.0, CPCV: 12.0, Alt-CPCV: 0.0, IMA: 14.0, SAN: 15.0, Cached SAN: 0.0, .*Ad: ShowBackendAd, ViewHolder: Video Ad.*"" is visible",Flaky
+June 24,release-2025.12,flow_gam_banner_swipe_right_to_left.yaml,"Assertion is false: ""Continue to app"" is visible",Flaky
+June 24,release-2025.12,flow_gam_roadblock_restricted.yaml,Assertion is false: id: in.mohalla.video:id/ad_cta is visible,Flaky
+June 24,release-2025.12,flow_ima_ad_same_penalty_multiplier_diff_floor.yaml,"Assertion is false: ""Mediation Result: Participants: Non-CPCV: 0.0, CPCV: 0.0, Alt-CPCV: 0.0, IMA: 15.0, SAN: 10.0, Cached SAN: 0.0, .*Ad: ShowPreRollAd, ViewHolder: Video Ad.*"" is visible",Flaky
+June 24,release-2025.12,flow_inAppBrowser_SAN_ads.yaml,"Assertion is false: ""https://solutiononline.shop"" is visible",Flaky
+June 24,release-2025.12,flow_inmobi_banner_interstitial.yaml,"Assertion is false: ""InMobi Logo"" is visible",Flaky
+June 24,release-2025.12,flow_instream_completeAdView_Skippable.yaml,"Assertion is false: "".*Ad: ShowPreRollAd, ViewHolder: Video Ad.*"" is visible",Flaky
+June 24,release-2025.12,flow_instream_interaction.yaml,"Assertion is false: "".*Ad: ShowPreRollAd, ViewHolder: Video Ad.*"" is visible",Flaky
+June 24,release-2025.12,flow_instream_skipAd.yaml,"Assertion is false: "".*Ad: ShowPreRollAd, ViewHolder: Video Ad.*"" is visible",Flaky
+June 24,release-2025.12,flow_interstitial_download_othersprofile.yaml,"Assertion is false: ""You're displaying a test interstitial from "" is visible",Flaky
+June 24,release-2025.12,flow_medV3_Instream_allslots.yaml,"Assertion is false: ""Mediation Result:.*Non-CPCV: 26.0, CPCV: 25.0, Alt-CPCV: 0.0, IMA: 50.0, SAN: 21.0, Cached SAN: 0.0.*"" is visible",Flaky
+June 24,release-2025.12,flow_medV3_Non_cpcv_allslots.yaml,"Assertion is false: ""Mediation Result:.*Participants.*Non-CPCV: 13.0, CPCV: 11.0, Alt-CPCV: 0.0, IMA: .*, SAN: 5.0, Cached SAN: 10.0.*"" is visible",Flaky
+June 24,release-2025.12,flow_medV3_SAN_allslots.yaml,"Assertion is false: ""Mediation Result:.*Participants.*Non-CPCV: 26.0, CPCV: 25.0, Alt-CPCV: 0.0, IMA: .*, SAN: 21.0, Cached SAN: 0.0.*"" is visible",Flaky
+June 24,release-2025.12,flow_medV3_cpcv_allslots.yaml,"Assertion is false: ""Mediation Result:.*Participants.*Non-CPCV: 13.0, CPCV: 15.0, Alt-CPCV: 0.0, IMA: .*, SAN: 10.0, Cached SAN: 10.0.*"" is visible",Flaky
+June 24,release-2025.12,flow_medV3_cpcv_high_floor_in_cache_next_slot_not_having_cpcv_config.yaml,"Assertion is false: ""Cpcv Ads: .2016.0415., CacheSize=10.*"" is visible",Flaky
+June 24,release-2025.12,flow_medV3_k_2_requests.yaml,"Assertion is false: ""Cpcv Ads: .15.0., Cache.*"" is visible",Flaky
+June 24,release-2025.12,flow_medV3_k_default_requests.yaml,"Assertion is false: ""Cpcv Ads: .15.0, 14.0, 10.0., Cache.*"" is visible",Flaky
+June 24,release-2025.12,flow_med_v3_default_values_0_1_for_penalty_multiplier_when_missing.yaml,"Assertion is false: ""Mediation Result: Participants: Non-CPCV: 19.0, CPCV: 17.0, Alt-CPCV: 0.0, IMA: .*, SAN: 14.0, Cached SAN: 11.0, .*Ad: ShowNonCpcvGamAd, ViewHolder: Non-CPCV Ad.*"" is visible",Flaky
+June 24,release-2025.12,flow_mediation_v3_tie_breaker_0_random_ad_wins.yaml,"Assertion is false: ""Mediation Result: Participants: Non-CPCV: 486.96118, CPCV: 486.96118, Alt-CPCV: 0.0, IMA: .*, SAN: 486.96118, Cached SAN: 0.0, Ad: .*"" is visible",Flaky
+June 24,release-2025.12,flow_mediation_v3_tie_breaker_1_non_cpcv_ad_win_when_scores_same.yaml,"Assertion is false: "".*Non-Cpcv Ads: .2016.0415., CacheSize=10.*"" is visible",Flaky
+June 24,release-2025.12,flow_mediation_v3_tie_breaker_2_non_cpcv_ad_win_when_scores_same.yaml,"Assertion is false: ""Mediation Result: Participants: Non-CPCV: 2016.0415, CPCV: 2016.0415, Alt-CPCV: 0.0, IMA:.*, SAN: 2016.0415, Cached SAN: 0.0, Ad: ShowNonCpcvGamAd, ViewHolder: Non-CPCV Ad"" is visible",Flaky
+June 24,release-2025.12,flow_mediation_v3_tie_breaker_highest_floor.yaml,"Assertion is false: ""Mediation Result: Participants: Non-CPCV: 22.0, CPCV: 0.0, Alt-CPCV: 0.0, IMA: .*, SAN: 25.0, Cached SAN: 0.0, .*Ad: ShowBackendAd, ViewHolder: Video Ad.*"" is visible",Flaky
+June 24,release-2025.12,flow_mediation_v3_tie_breaker_lowest_penalty.yaml,"Assertion is false: ""Mediation Result: Participants: Non-CPCV: 18.0, CPCV: 16.0, Alt-CPCV: 0.0, IMA: 15.0, SAN: 10.0, Cached SAN: 0.0, .*Ad: ShowPreRollAd, ViewHolder: Video Ad.*"" is visible",Flaky
+June 24,release-2025.12,flow_new_req_to_be_fired_when_cache_full_new_request_having_high_floor_value_than_cache.yaml,"Assertion is false: ""Mediation Result: Participants: Non-CPCV: 488.96118, CPCV: 488.96118, Alt-CPCV: 0.0, IMA:.*, SAN: 486.96118, Cached SAN: 0.0, Ad: ShowBackendAd, ViewHolder: Video Ad"" is visible",Flaky
+June 24,release-2025.12,flow_no_new_req_to_be_fired_when_cache_full_new_request_having_low_floor_values.yaml,"Assertion is false: ""Mediation Result: Participants: Non-CPCV: 488.96118, CPCV: 488.96118, Alt-CPCV: 0.0, IMA:.*, SAN: 486.96118, Cached SAN: 0.0, Ad: ShowBackendAd, ViewHolder: Video Ad"" is visible",Flaky
+June 24,release-2025.12,flow_others_profile_back_press_exit.yaml,Assertion is false: id: in.mohalla.video:id/exo_content_frame is visible,Flaky
+June 24,release-2025.12,flow_others_profile_back_press_no_ads.yaml,Assertion is false: id: in.mohalla.video:id/exo_content_frame is visible,Flaky
+June 24,release-2025.12,flow_san_ad_cta_redirection_download_pop_up.yaml,Assertion is false: id: com.android.chrome:id/positive_button is visible,Flaky
+June 24,release-2025.12,flow_san_forced_delivery_and_no_ad_requests_to_be_fired.yaml,"Assertion is false: ""Mediation Result: Participants: Non-CPCV: 69.70691, CPCV: 0.0, Alt-CPCV: 0.0, IMA: .*, SAN: 69.70691, Cached SAN: 0.0, Ad: ShowNonCpcvGamAd, ViewHolder: Non-CPCV Ad"" is visible",Flaky
+June 24,release-2025.12,flow_score_calculation_floor_multiplier_in_decimal_values.yaml,"Assertion is false: ""Mediation Result: Participants: Non-CPCV: 27.43, CPCV: 26.520002, Alt-CPCV: 0.0, IMA: .*, SAN: 15.0, Cached SAN: 0.0, .*Ad: ShowCpCvGamAd, ViewHolder: CPCV Ad.*"" is visible",Flaky
+June 24,release-2025.12,flow_sharesheetInterstitial_Noad.yaml,Assertion is false: id: in.mohalla.video:id/tv_user_handle is visible,Flaky
+June 24,release-2025.12,flow_ugc_replay_plate_for_you_feed_native.yaml,Assertion is false: id: in.mohalla.video:id/media_view is not visible,Flaky
+June 24,release-2025.12,flow_ugc_replay_plate_tag_feed_native.yaml,Assertion is false: id: in.mohalla.video:id/ad_cta is visible,Flaky
+June 24,release-2025.12,splashAdsSkipAdFlow.yaml,Unknown error,Flaky
+July 12,release-2025.15,flow_san_image_ad.yaml,Assertion is false: id: com.android.chrome:id/url_bar is visible,Flaky
+July 12,release-2025.15,flow_cpcv_userBlock_issue.yaml,Assertion is false: id: in.mohalla.video:id/skip_ad_view is visible,Flaky
+July 14,release-2025.15,flow_cpcv_ad_swipeLeftRight.yaml,Element not found: Id matching regex: in.mohalla.video:id/skip_ad_view,Flaky
+July 14,release-2025.15,flow_ugc_replay_plate_other_profile_feed_native.yaml,Assertion is false: id: in.mohalla.video:id/ad_cta is visible,Flaky
+Aug 6,release-2025.19,flow_cached_be_same_penalty_multiplier_diff_floor,`,
+Aug 6,release-2025.19,flow_interstitial_Download_noad,,
