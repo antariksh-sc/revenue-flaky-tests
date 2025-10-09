@@ -160,5 +160,6 @@ July 12,release-2025.15,flow_san_image_ad.yaml,Assertion is false: id: com.andro
 July 12,release-2025.15,flow_cpcv_userBlock_issue.yaml,Assertion is false: id: in.mohalla.video:id/skip_ad_view is visible,Flaky
 July 14,release-2025.15,flow_cpcv_ad_swipeLeftRight.yaml,Element not found: Id matching regex: in.mohalla.video:id/skip_ad_view,Flaky
 July 14,release-2025.15,flow_ugc_replay_plate_other_profile_feed_native.yaml,Assertion is false: id: in.mohalla.video:id/ad_cta is visible,Flaky
-Aug 6,release-2025.19,flow_cached_be_same_penalty_multiplier_diff_floor,`,
-Aug 6,release-2025.19,flow_interstitial_Download_noad,,
+Aug 6,release-2025.19,flow_cached_be_same_penalty_multiplier_diff_floor,`,Flaky
+Aug 6,release-2025.19,flow_interstitial_Download_noad,,Flaky
+Aug 21,release-2025.20,flow_non_cpcv_ad_same_penalty_multiplier_diff_floor,,Flaky
