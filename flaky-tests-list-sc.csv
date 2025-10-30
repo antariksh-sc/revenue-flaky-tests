@@ -329,8 +329,6 @@ Sep 8,release-2025.28,immersive_feMediation_san_Caching_var2,"Assertion is false
 Sep 8,release-2025.28,flow_backpress_swipe_alterCPCV,"Assertion is false: ""Explore"" is visible",Flaky,
 Sep 8,release-2025.28,Flow_backpress_swipe_vsf,"Assertion is false: ""Trending"" is visible
 ",Flaky,
-Sep 18,release-2025.29,adMobAppReopenAd.yaml,"(Assertion is false: ""Continue to app"" is visible)",Flaky,Due to ad fill issue,
-Oct 25,release-2025.32,flow_DownloadOnAll5Placement.yaml,"(Assertion is false: id: in.mohalla.sharechat:id/fl_bannerAdContainer is visible)",Flaky,Works fine on local,
-Oct 25,release-2025.32,flow_UGCOnAll5Placement.yaml,"(Assertion is false: id: in.mohalla.sharechat:id/fl_bannerAdContainer is visible)",Flaky,Works fine on local
-
-
+Sep 18,release-2025.29,adMobAppReopenAd.yaml,"(Assertion is false: ""Continue to app"" is visible)",Flaky,Due to ad fill issue
+Oct 25,release-2025.32,flow_DownloadOnAll5Placement.yaml,"""(Assertion is false: id: in.mohalla.sharechat:id/fl_bannerAdContainer is visible)""",Flaky,Works fine on local
+Oct 25,release-2025.32,flow_UGCOnAll5Placement.yaml,"""(Assertion is false: id: in.mohalla.sharechat:id/fl_bannerAdContainer is visible)""",Flaky,Works fine on local
